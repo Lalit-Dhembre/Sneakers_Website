@@ -2,7 +2,6 @@
 
 A premium, client-ready sneaker e-commerce prototype built with React, Redux Toolkit, and Tailwind CSS.
 
-![Hero Preview](https://github.com/manipandit/snkr-hub/assets/110151059/ac847c8d-f343-41e3-b35c-30426fda8b9a)
 
 ## Overview
 
