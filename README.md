@@ -1,82 +1,71 @@
-# SNKR-hub
+# SNKR.hub 👟
 
+A premium, client-ready sneaker e-commerce prototype built with React, Redux Toolkit, and Tailwind CSS.
 
+![Hero Preview](https://github.com/manipandit/snkr-hub/assets/110151059/ac847c8d-f343-41e3-b35c-30426fda8b9a)
 
- SNKR-hub is a front-end project built using React, Redux Toolkit, and Tailwind CSS. It's a Single Page Application (SPA) designed for a seamless shopping experience. Users can explore sneakers, add or remove items from the cart, adjust item quantities, and see real-time price updates. The project leverages Redux Toolkit for state management and has been deployed on Vercel.
+## Overview
 
-![home](https://github.com/manipandit/snkr-hub/assets/110151059/ac847c8d-f343-41e3-b35c-30426fda8b9a)
+SNKR.hub is a modern Single Page Application (SPA) designed to offer a seamless and visually stunning shopping experience. It features a fully responsive design, advanced filtering, unique cart management for different sizes, and a polished user interface.
 
+## ✨ Key Features
 
-![explore](https://github.com/manipandit/snkr-hub/assets/110151059/70816afd-3b9a-44bc-8764-881a0bf05548)
+- **Premium UI/UX**: Immersive Hero section, smooth animations (Framer Motion feel), and a glassmorphism aesthetic.
+- **Advanced Filtering**: Sidebar filters on the Explore page for Brand, Gender, Price Range, and textual Search.
+- **Dynamic Cart**: 
+  - Support for adding the same sneaker in **multiple sizes** as distinct items.
+  - Real-time price updates and free shipping calculation logic.
+- **Product Preview**: Detailed product view with size selection, wishlist toggle, and rich descriptions.
+- **Responsive Design**: Fully optimized for Desktop, Tablet, and Mobile devices (including a custom mobile menu).
+- **Dark Mode Support**: System-aware dark mode integration.
 
+## 🛠 Tech Stack
 
-![cart](https://github.com/manipandit/snkr-hub/assets/110151059/eaf8bc4b-834f-43e1-ad9e-f98a5dd2d995)
+- **Frontend**: [React](https://reactjs.org/) (Vite)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/)
+- **Routing**: [React Router DOM](https://reactrouter.com/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Notifications**: [React Hot Toast](https://react-hot-toast.com/)
 
+## 🚀 Getting Started
 
-## Features
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/Lalit-Dhembre/Sneakers_Website.git
+    cd snkr-hub
+    ```
 
-1. **Single Page Application (SPA):** SNKR-hub is designed as a SPA, providing users with a seamless shopping experience without the need for page reloads.
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-2. **Add & Remove Items from Cart:** Users can easily add items to their shopping cart and remove them as needed.
-
-3. **Increase/Decrease Quantity of Items:** The application allows users to conveniently adjust the quantity of items in their cart.
-
-4. **Dynamic Price Updates:** The cart's total price is automatically updated as items are added, removed, or their quantities are adjusted.
-
-5. **State Management Using Redux Toolkit:** Redux Toolkit is employed for efficient state management, ensuring a consistent and predictable application state.
-
-6. **Deployed on Vercel:** The project is hosted on Vercel, making it accessible online.
-
-## Pages
-
-SNKR-hub consists of three main pages:
-
-1. **Home Page:** The landing page where users can explore featured sneakers and navigate to other sections.
-
-2. **Explore Page:** Users can browse the entire catalog of sneakers, view details, and add items to their cart.
-
-3. **Cart Page:** This page displays the items in the user's shopping cart, allows them to adjust quantities, and proceed to checkout.
-
-## Installation and Usage
-
-To run SNKR-hub on your local machine, follow these steps:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/snkr-hub.git
-   cd snkr-hub
-2. **Install Dependencies:**
-   ```bash
-   npm install
-
-3. **Run the Development Server:**
+3.  **Run Development Server**
     ```bash
     npm run dev
+    ```
 
-5. **Open in Your Browser:**
-   Visit http://localhost:3000 to explore SNKR-hub.
+4.  **Build for Production**
+    ```bash
+    npm run build
+    ```
 
-## Technologies Used
+## 📂 Project Structure
 
-SNKR-hub utilizes the following technologies:
+```
+src/
+├── assets/         # Images and static data
+├── components/     # Reusable UI components (Card, Navbar, Footer...)
+├── pages/          # Page components (Home, Explore, Cart, Preview)
+├── redux/          # Redux store and slices
+└── index.css       # Global styles and Tailwind directives
+```
 
-- React
-- Redux Toolkit
-- Tailwind CSS
-- And other libraries and tools as required for the project.
+## 🤝 Contributing
 
-## Deployment
+Contributions are welcome! Please fork the repository and submit a pull request.
 
-SNKR-hub is deployed on Vercel, a popular platform for hosting web applications.
+## 📄 License
 
-## Contributing
-
-If you'd like to contribute to this project, please open an issue or create a pull request. We appreciate feedback and contributions from the community.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-Enjoy using SNKR-hub, your ultimate destination for sneaker shopping! If you have questions or need assistance, please feel free to reach out.
-
-Happy shopping and coding! 🚀
+This project is open-source and available under the [MIT License](LICENSE).
